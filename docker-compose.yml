@@ -1,0 +1,8 @@
+services:
+  postgres:
+    image: postgres:14.3
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=12qwaszx
+      - POSTGRES_DB=bithealth_test
